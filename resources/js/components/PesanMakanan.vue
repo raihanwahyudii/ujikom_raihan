@@ -12,7 +12,7 @@
                             <div class="row">
                                 <div class="col-md-4" v-for="masakan in JSON.parse(masakans)" :key="masakan.id">
                                     <div class="card m-b-30" style='box-shadow:none; border: 1px solid #ddd'>
-                                        <img class="card-img-top " :src="`/storage/masakan/${masakan.image_name}`" alt="Card image cap">
+                                        <img class="card-img-top " :src="`/storage/${masakan.image_name}`" alt="Card image cap">
                                         <div class="card-body text-center">
                                             <h4 class="card-title font-20 mt-0">{{ masakan.name }}</h4>
                                             <p class="card-title text-muted  mt-0">Rp {{ number_format(masakan.harga) }}</p>

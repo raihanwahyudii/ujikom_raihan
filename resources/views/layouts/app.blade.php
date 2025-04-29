@@ -102,7 +102,7 @@
                                 @if(Auth::user()->level_id == 1)
                                     <li class="has-submenu">
                                         <a href="{{ route('masakan.index') }}"><i class="ti-palette"></i>Masakan</a>
-                                    </li>
+                                    <g/li>
                                 @endif
 
                                 @if(Auth::user()->level_id == 1 || Auth::user()->level_id == 2 || Auth::user()->level_id == 5)
@@ -142,11 +142,11 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
-                            © 2020 Restorang<span class="d-none d-sm-inline-block"> - Crafted with <i class="mdi mdi-heart text-danger"></i> by Ahmad Saugi</span>.
+                            <span class="d-none d-sm-inline-block"> <i class="mdi mdi-heart text-danger"></i> </span>.
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer>   
         </div>
 
         <!-- End Footer -->
