@@ -1,5 +1,5 @@
 /vendor/
 /node_modules/
-/cloning-folder/
-*.zip
-*.rar
+/ujikom_raihan-folder/
+*.log
+*.tmp
